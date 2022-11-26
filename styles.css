@@ -1,0 +1,86 @@
+body {
+    font-family: 'Chelsea Market', cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #e9ecef;
+    color: #404247;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #240046;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 2px solid #495057;
+    box-shadow: 3px 3px 4px #495057;
+    max-width: 370px;
+    margin-top: 20px;
+    background: whitesmoke;
+    padding: 2px;
+}
+
+
+.hero {
+    background: #6247aa;
+    padding: 12px 8px;
+    border-radius: 10px;
+    color: #f1faee;
+}
+
+.convert-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#convert {
+    width: 4rem;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Chelsea Market', cursive;
+    border-radius: 5px;
+
+}
+#convert-btn {
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    font-family: 'Chelsea Market', cursive;
+    font-weight: bold;
+    background-color: #f72585;
+    color:#f4f4f9;
+    border:none;
+    box-shadow: 0px 0px 1px #f4f4f9;
+}
+
+.metric-container {
+    border-bottom: 1px solid #240046;
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.metric-container-last {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
