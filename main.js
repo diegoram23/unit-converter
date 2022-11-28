@@ -26,7 +26,7 @@ function limit(input) {
         input.value = input.value.substr(0, max_chars);
     }
 }
-limit()
+
 //Button that performs conversion
 convertBtn.addEventListener('click', () => {
     
