@@ -67,6 +67,17 @@ body {
     box-shadow: 0px 0px 1px #f4f4f9;
 }
 
+#convert-btn:hover {
+    cursor: pointer;
+}
+
+#convert-btn:active {
+    
+    border: 1px #f72585 solid;
+    color: #f72585;
+    background: #f4f4f9;
+}
+
 .metric-container {
     border-bottom: 1px solid #240046;
     width: 100%;
