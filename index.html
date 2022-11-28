@@ -18,7 +18,7 @@
         <div class="hero">
             <h2>Metric/Imperial Unit Conversion</h2>
             <div class="convert-container">
-                <input id="input" type="text" placeholder="0" onkeypress="return isNumber(event)">
+                <input id="input" type="number" placeholder="0" onkeydown="limit(this)" onkeyup="limit(this)">
                 <button id="convert-btn">Convert</button>
             </div>
         </div>

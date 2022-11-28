@@ -16,17 +16,17 @@ const meterToFeet = 3.28
 const literToGallon = 0.26
 const kiloToPound = 2.20
 
-function isNumber(evt) {
-    evt = (evt) ? evt : window.event;
-    let charCode = (evt.which) ? evt.which : evt.keyCode;
-    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
-        return false;
+
+
+
+function limit(input) {
+    let max_chars = 5;
+         
+    if(input.value.length > max_chars) {
+        input.value = input.value.substr(0, max_chars);
     }
-    return true;
 }
-
-
-
+limit()
 //Button that performs conversion
 convertBtn.addEventListener('click', () => {
     
