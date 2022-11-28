@@ -8,7 +8,6 @@ const weightKtoL = document.getElementById('weightKtoL')
 const weightLtoK = document.getElementById('weightLtoK')
 const volumeLtoG = document.getElementById('volumeLtoG')
 const volumeGtoL = document.getElementById('volumeGtoL')
-let value = input.value
 
 
 //Metric measurements
@@ -26,15 +25,15 @@ function limit(input) {
         input.value = input.value.substr(0, max_chars);
     }
 }
-
 //Button that performs conversion
 convertBtn.addEventListener('click', () => {
-    
-    lengthMtoF.textContent = `${input.value} meters = ${(input.value * meterToFeet).toFixed(2)} feet`
-    lengthFtoM.textContent = `${input.value} feet = ${(input.value / meterToFeet).toFixed(2)} meters`
-    weightKtoL.textContent = `${input.value} kgs = ${(input.value * kiloToPound).toFixed(2)} lbs`
-    weightLtoK.textContent = `${input.value} lbs = ${(input.value / kiloToPound).toFixed(2)} kgs`
-    volumeGtoL.textContent = `${input.value} gallons = ${(input.value / literToGallon).toFixed(2)} liters`
-    volumeLtoG.textContent = `${input.value} liters = ${(input.value * literToGallon).toFixed(2)} gallons`
-    console.log (typeof input)
+    //returns input typeof as number
+    let value = input.valueAsNumber
+
+    lengthMtoF.textContent = `${value} meters = ${(value * meterToFeet).toFixed(2)} feet`
+    lengthFtoM.textContent = `${value} feet = ${(value / meterToFeet).toFixed(2)} meters`
+    weightKtoL.textContent = `${value} kgs = ${(value * kiloToPound).toFixed(2)} lbs`
+    weightLtoK.textContent = `${value} lbs = ${(value / kiloToPound).toFixed(2)} kgs`
+    volumeGtoL.textContent = `${value} gallons = ${(value / literToGallon).toFixed(2)} liters`
+    volumeLtoG.textContent = `${value} liters = ${(value * literToGallon).toFixed(2)} gallons`
 })
