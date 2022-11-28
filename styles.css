@@ -42,7 +42,7 @@ body {
 .convert-container {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 #input {
@@ -55,6 +55,7 @@ body {
     border-radius: 5px;
 
 }
+
 #convert-btn {
     font-size: 18px;
     border-radius: 5px;
@@ -62,8 +63,8 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: bold;
     background-color: #f72585;
-    color:#f4f4f9;
-    border:none;
+    color: #f4f4f9;
+    border: none;
     box-shadow: 0px 0px 1px #f4f4f9;
 }
 
@@ -72,8 +73,6 @@ body {
 }
 
 #convert-btn:active {
-    
-    border: 1px #f72585 solid;
     color: #f72585;
     background: #f4f4f9;
 }
@@ -88,7 +87,12 @@ body {
     justify-content: center;
 }
 
-#lengthMtoF, #lengthFtoM, #weightKtoL, #weightLtoK, #volumeGtoL, #volumeLtoG {
+#lengthMtoF,
+#lengthFtoM,
+#weightKtoL,
+#weightLtoK,
+#volumeGtoL,
+#volumeLtoG {
     margin: 5px;
     padding: 0;
 }
@@ -103,7 +107,7 @@ body {
 }
 
 .footer {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
