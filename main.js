@@ -1,7 +1,7 @@
 
 //DOM variables
 let convertBtn = document.getElementById('convert-btn')
-let input = document.getElementById('input').valueAsNumber
+let input = document.getElementById('input').value
 const lengthMtoF = document.getElementById('lengthMtoF')
 const lengthFtoM = document.getElementById('lengthFtoM')
 const weightKtoL = document.getElementById('weightKtoL')
