@@ -23,7 +23,7 @@ body {
     justify-content: center;
     border-radius: 12px;
     border: 2px solid #495057;
-    box-shadow: 3px 3px 4px #495057;
+    box-shadow: 3px 3px 15px #495057;
     max-width: 370px;
     margin-top: 20px;
     background: whitesmoke;
@@ -45,8 +45,8 @@ body {
     
 }
 
-#convert {
-    width: 4rem;
+#input {
+    width: 5rem;
     font-size: 20px;
     height: 30px;
     text-align: center;
@@ -77,6 +77,10 @@ body {
     justify-content: center;
 }
 
+#lengthMtoF, #lengthFtoM, #weightKtoL, #weightLtoK, #volumeGtoL, #volumeLtoG {
+    margin: 5px;
+    padding: 0;
+}
 
 
 .metric-container-last {
