@@ -1,7 +1,7 @@
 
 //DOM variables
 let convertBtn = document.getElementById('convert-btn')
-let input = document.getElementById('input').value
+let input = document.getElementById('input')
 const lengthMtoF = document.getElementById('lengthMtoF')
 const lengthFtoM = document.getElementById('lengthFtoM')
 const weightKtoL = document.getElementById('weightKtoL')
@@ -36,4 +36,5 @@ convertBtn.addEventListener('click', () => {
     weightLtoK.textContent = `${input.value} lbs = ${(input.value / kiloToPound).toFixed(2)} kgs`
     volumeGtoL.textContent = `${input.value} gallons = ${(input.value / literToGallon).toFixed(2)} liters`
     volumeLtoG.textContent = `${input.value} liters = ${(input.value * literToGallon).toFixed(2)} gallons`
+    console.log (typeof input)
 })
