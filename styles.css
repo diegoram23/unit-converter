@@ -12,10 +12,6 @@ body {
     min-height: 100vh;
 }
 
-.title {
-    color: #240046;
-}
-
 .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -30,6 +26,11 @@ body {
     padding: 2px;
 }
 
+/* Header */
+
+.title {
+    color: #240046;
+}
 
 .hero {
     background: #6247aa;
@@ -45,6 +46,7 @@ body {
 
 }
 
+/* Input field */
 #input {
     width: 6rem;
     font-size: 20px;
@@ -56,6 +58,7 @@ body {
 
 }
 
+/* convert button */
 #convert-btn {
     font-size: 18px;
     border-radius: 5px;
@@ -77,9 +80,19 @@ body {
     background: #f4f4f9;
 }
 
+/* Metric container typography */
 .metric-container {
     border-bottom: 1px solid #240046;
     width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.metric-container-last {
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -98,13 +111,7 @@ body {
 }
 
 
-.metric-container-last {
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+/* footer */
 
 .footer {
     display: flex;
