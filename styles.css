@@ -100,12 +100,7 @@ body {
     justify-content: center;
 }
 
-#lengthMtoF,
-#lengthFtoM,
-#weightKtoL,
-#weightLtoK,
-#volumeGtoL,
-#volumeLtoG {
+.result{
     margin: 5px;
     padding: 0;
 }
